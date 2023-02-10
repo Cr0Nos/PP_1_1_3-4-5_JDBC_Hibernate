@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
-    private final String TABLE_NAME = "users";
+    private final String TABLE_NAME = Util.TABLE_NAME;
 
     private final Connection connection;
     public UserDaoJDBCImpl() {
